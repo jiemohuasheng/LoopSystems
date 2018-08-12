@@ -409,7 +409,7 @@ margin-top: 10px;
 .hireme_text {
   background: rgba(0, 0, 0, 0) url("../img/hire_bg.jpg") repeat scroll 0 0;
   display: block;
-  height: 585px;
+  height: 400px;
   padding-right: 0;
 }
 .hireme_inner {
@@ -454,39 +454,13 @@ border-radius:50px;
 .my_work {
   margin-right: 10px;
 }
-.hair_me{
+.hire_me{
 	margin-left: 10px;
 	margin-right: 40px;
 }
-.hireme_slider {
-  padding-left: 0;
-}
-#hireme_slide .item img {
-  height: 584px;
+.service_area .item img{
   width: 100%;
-}
-.hireme_slider .owl-wrapper-outer{
-position:relative;
-	
-}
-.hireme_slider .owl-controls {
-  position: absolute;
-  top: 45%;
-  left:5%;
-}
-.hireme_slider .owl-page {
-  display: block !important;
-}
-.hireme_slider .owl-page span {
-  background: #404040 none repeat scroll 0 0 !important;
-  opacity: 1 !important;
-}
-.hireme_slider .owl-page.active span,.hireme_slider .owl-page:hover span {
-  background: #2ec06c none repeat scroll 0 0 !important;
-}
-
-.hireme_slider .owl-buttons{
-	display:none;
+  height: 400px;
 }
 
 /*=====================================================================
@@ -640,6 +614,9 @@ color:#2ec06c;
 }
 .work_img{
 	position:relative;
+}
+.work_img img{
+  height: 250px;
 }
 .project_overlay {
 	height: 100%;
