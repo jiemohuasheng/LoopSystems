@@ -322,8 +322,14 @@ margin-top: 10px;
   color: #fff;
   font-size: 30px;
 }
-.manu_div button:hover {
-  color:#2ec06c;
+.manu_div button div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+.manu_div:hover {
+  background-color:#2ec06c;
 }
 .cbp-spmenu {
   background: #171717 none repeat scroll 0 0;
@@ -353,8 +359,9 @@ margin-top: 10px;
 .header_text h1 {
   color: #fff !important;
   font-family: "karlaregular";
-  font-size: 40px;
+  font-size: 70px;
   line-height: 45px;
+  text-align: center;
   margin: 0;
 }
 .header_text h1 span{
@@ -481,6 +488,7 @@ padding-bottom:50px;
 }
 .service_title h2 span{
 	font-family: 'asapbold';
+	color:#2ec06c;
 }
 .service_title p{
 	font-family: 'asapregular';
