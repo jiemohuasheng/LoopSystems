@@ -269,24 +269,24 @@ textarea {
 }
 
 /*=====================================================================
-	Helpar css
+  Helpar css
 =======================================================================*/
 .section_padding{
-	padding:100px 0;
+  padding:100px 0;
 }
 
 /*=====================================================================
-	css for header area
+  css for header area
 =======================================================================*/
 .header_overlay{
-	//background:url(../img/slider-overlay.png) repeat scroll 0 0;
-	position:absolute;
-	height:100%;
-	width:100%;
-	left:0;
-	bottom:0;
-	z-index:14;
-	padding-top:40px;
+  //background:url(../img/slider-overlay.png) repeat scroll 0 0;
+  position:absolute;
+  height:100%;
+  width:100%;
+  left:0;
+  bottom:0;
+  z-index:14;
+  padding-top:40px;
 }
 .carousel .carousel-indicators {
   position: absolute;
@@ -304,7 +304,7 @@ display:block;
 margin-top: 10px;
 }
 .header_top{
-	margin-bottom:115px;
+  margin-bottom:115px;
 }
 .manu_div {
   position: fixed;
@@ -354,7 +354,7 @@ margin-top: 10px;
   background: none;
 }
 .header_text{
-	margin-bottom:250px;
+  margin-bottom:250px;
 }
 .header_text h1 {
   color: #fff !important;
@@ -365,14 +365,14 @@ margin-top: 10px;
   margin: 0;
 }
 .header_text h1 span{
-	font-family: 'karlabold';
+  font-family: 'karlabold';
 }
 .header_promo {
   color: #fff;
   text-align:center;
 }
 .single_promo{
-	padding-top:60px;
+  padding-top:60px;
 }
 .single_promo i {
   border: 1px solid #fff;
@@ -402,16 +402,16 @@ margin-top: 10px;
   text-decoration:none;
 }
 .single_promo:hover{
-	width:100%;
-	height:187px;
-	padding-top:30px;
+  width:100%;
+  height:187px;
+  padding-top:30px;
 }
 .single_promo:hover.single_promo a{
-	display:block;
+  display:block;
 }
 
 /*=====================================================================
-	css for Hareme area
+  css for Hareme area
 =======================================================================*/
 .hireme_text {
   background: rgba(0, 0, 0, 0) url("../img/hire_bg.jpg") repeat scroll 0 0;
@@ -462,8 +462,8 @@ border-radius:50px;
   margin-right: 10px;
 }
 .hire_me{
-	margin-left: 10px;
-	margin-right: 40px;
+  margin-left: 10px;
+  margin-right: 40px;
 }
 .service_area .item img{
   width: 100%;
@@ -471,31 +471,31 @@ border-radius:50px;
 }
 
 /*=====================================================================
-	css for Sarvice area
+  css for Sarvice area
 =======================================================================*/
 .service_area{
 padding-bottom:50px;
 }
 .service{
-	text-align:center;
+  text-align:center;
 }
 .service_title h2{
-	color:#202020;
-	font-family: "asapregular";
-	font-size:30px;
-	margin-top:0;
-	margin-bottom:15px;
+  color:#202020;
+  font-family: "asapregular";
+  font-size:30px;
+  margin-top:0;
+  margin-bottom:15px;
 }
 .service_title h2 span{
-	font-family: 'asapbold';
-	color:#2ec06c;
+  font-family: 'asapbold';
+  color:#2ec06c;
 }
 .service_title p{
-	font-family: 'asapregular';
-	color:#202020;
-	font-size:18px;
-	line-height:29px;
-	margin:0 15% 50px;
+  font-family: 'asapregular';
+  color:#202020;
+  font-size:18px;
+  line-height:29px;
+  margin:0 15% 50px;
 }
 .single_servicr {
   margin-bottom: 50px;
@@ -515,22 +515,22 @@ padding-bottom:50px;
   width: 475px;
 }
 .service_text h3{
-	color:#202020;
-	font-size:20px;
-	line-height:29px;
-	font-family: 'asapbold';
-	margin-top:0;
-	margin-bottom:15px;
+  color:#202020;
+  font-size:20px;
+  line-height:29px;
+  font-family: 'asapbold';
+  margin-top:0;
+  margin-bottom:15px;
 }
 .service_text p{
-	color:#666666;
-	font-size:16px;
-	line-height:20px;
-	font-family: 'karlaregular';
+  color:#666666;
+  font-size:16px;
+  line-height:20px;
+  font-family: 'karlaregular';
 }
 
 /*=====================================================================
-	css for Sponsor area
+  css for Sponsor area
 =======================================================================*/
 .sponsor_area {
   position: relative;
@@ -555,11 +555,11 @@ padding-bottom:50px;
   width: 100%;
 }
 .sponsor_area h3{
-	font-family: 'asapregular';
-	font-size:18px;
-	line-height:20px;
-	color:#fff;
-	margin-bottom:75px;
+  font-family: 'asapregular';
+  font-size:18px;
+  line-height:20px;
+  color:#fff;
+  margin-bottom:75px;
 }
 .sponsor_inner .owl-buttons {
   margin-top: -50px;
@@ -589,7 +589,7 @@ padding-bottom:50px;
 }
 
 /*=====================================================================
-	css for Project area
+  css for Project area
 =======================================================================*/
 .project_area {
   padding-bottom: 80px;
@@ -618,26 +618,26 @@ color:#2ec06c;
   margin: 0 15% 15px;
 }
 .single_project{
-	margin-bottom:20px;
+  margin-bottom:20px;
 }
 .work_img{
-	position:relative;
+  position:relative;
 }
 .work_img img{
   height: 250px;
 }
 .project_overlay {
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	background: #2EC06C none repeat scroll 0 0;
-	transform: scale(0);
-	transition-duration: 0.3s;
-	transition-property: transform;
-	transition-timing-function: ease-out;
-	opacity:0.9;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #2EC06C none repeat scroll 0 0;
+  transform: scale(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  opacity:0.9;
 }
 .project_overlay a {
   border: 2px solid #fff;
@@ -713,11 +713,11 @@ color:#2ec06c;
   padding: 25px 0;
 }
 .single_project:hover div.project_overlay {
-	transform: scale(1);
+  transform: scale(1);
 }
 
 /*=====================================================================
-	css for Testmonial area
+  css for Testmonial area
 =======================================================================*/
 .testmonial_area{
 position:relative;
@@ -747,23 +747,23 @@ text-align:center;
   margin-bottom: 30px;
 }
 .c_comment{
-	font-family: 'asapregular';
-	font-size:18px;
-	line-height:29px;
-	margin-top:0;
-	margin-bottom:30px;
+  font-family: 'asapregular';
+  font-size:18px;
+  line-height:29px;
+  margin-top:0;
+  margin-bottom:30px;
 }
 .c_name{
-	font-family: 'asapbold';
-	color:#2EC06C;
-	font-size:18px;
-	margin-top:0;
-	margin-bottom:50px;
+  font-family: 'asapbold';
+  color:#2EC06C;
+  font-size:18px;
+  margin-top:0;
+  margin-bottom:50px;
 }
 .c_name span{
-	font-family: 'asapitalic';
-	color:#fff;
-	font-size:16px;
+  font-family: 'asapitalic';
+  color:#fff;
+  font-size:16px;
 }
 .testmonial div.owl-page span {
   background: #b3b3b3 none repeat scroll 0 0 !important;
@@ -774,32 +774,32 @@ text-align:center;
 }
 
 /*=====================================================================
-	css for Contact area
+  css for Contact area
 =======================================================================*/
 .contact_area {
   padding-bottom: 171px;
 }
 .contact_a_title{
-	text-align:center;
-	margin-bottom:45px;
+  text-align:center;
+  margin-bottom:45px;
 }
 .contact_a_title h2{
-	font-family: 'asapregular';
-	color:#202020;
-	font-size:30px;
-	line-height:40px;
-	margin-top:0;
-	margin-bottom:25px;
+  font-family: 'asapregular';
+  color:#202020;
+  font-size:30px;
+  line-height:40px;
+  margin-top:0;
+  margin-bottom:25px;
 }
 .contact_a_title h2 span{
-	font-family: 'asapbold';
-	color:#2EC06C;
+  font-family: 'asapbold';
+  color:#2EC06C;
 }
 .contact_a_title p{
-	color:#666666;
-	font-family: 'karlaregular';
-	font-size:16px;
-	margin:0 15% 15px;
+  color:#666666;
+  font-family: 'karlaregular';
+  font-size:16px;
+  margin:0 15% 15px;
 }
 .single_social a {
   border: 1px solid;
@@ -812,53 +812,54 @@ text-align:center;
   text-align: center;
 }
 .facebook{
-	border-color:#3b5998;
-	color:#3b5998;
-	
+  border-color:#3b5998;
+  color:#3b5998;
+  
 }
 .facebook:hover{
-	color:#fff;
-	border-color:#3b5998;
+  color:#fff;
+  border-color:#3b5998;
 }
 .fb_link .hvr-bounce-to-bottom:before {
   background: #3b5998 none repeat scroll 0 0;
 }
 .twitter{
-	border-color:#00aced;
-	color:#00aced;
+  border-color:#00aced;
+  color:#00aced;
 }
 .twitter:hover{
-	border-color:#00aced;
-	color:#fff;
+  border-color:#00aced;
+  color:#fff;
 }
 .tw_link .hvr-bounce-to-bottom:before {
   background: #00aced none repeat scroll 0 0;
 }
 .instagram{
-	border-color:#517fa4;
-	color:#517fa4;
+  border-color:#517fa4;
+  color:#517fa4;
 }
 .instagram:hover{
-	border-color:#517fa4;
-	color:#fff;
+  border-color:#517fa4;
+  color:#fff;
 }
 .int_link .hvr-bounce-to-bottom:before {
   background: #517fa4 none repeat scroll 0 0;
 }
 .dribbble{
-	border-color:#ff0084;
-	color:#ff0084;
+  border-color:#ff0084;
+  color:#ff0084;
 }
 .dribbble:hover{
-	border-color:#ff0084;
-	color:#fff;
+  border-color:#ff0084;
+  color:#fff;
 }
 .dri_link .hvr-bounce-to-bottom:before {
   background: #ff0084 none repeat scroll 0 0;
 }
 
 .contact_box{
-  width: 100%;
+  width: 80%;
+  margin-left: 11%;
 }
 .contact_box input[type="text"], .contact_box input[type="mail"], .contact_box input[type="numbar"], .contact_box textarea {
   color: #666666;
@@ -870,7 +871,7 @@ text-align:center;
 .contact_box input[type="text"],
 .contact_box input[type="mail"],
 .contact_box input[type="numbar"]{
-	height:45px;
+  height:45px;
 }
 .contact_box .form-control:focus {
   border-color: #2EC06C;
@@ -878,7 +879,7 @@ text-align:center;
   outline: 0 none;
 }
 .massage_a{
-	position:relative;
+  position:relative;
 }
 .massage_s {
   background: #2ec06c none repeat scroll 0 0;
@@ -901,7 +902,7 @@ color:#fff;
 }
 
 /*=====================================================================
-	css for Footer area
+  css for Footer area
 =======================================================================*/
 .footer_area {
   background: #eeeeee none repeat scroll 0 0;
@@ -909,24 +910,24 @@ color:#fff;
   padding: 15px;
 }
 .footer_area p{
-	font-family: 'asapitalic';
-	font-size:16px;
-	color:#2f2f2f;
-	margin:0;
+  font-family: 'asapitalic';
+  font-size:16px;
+  color:#2f2f2f;
+  margin:0;
 }
 .footer_area p a{
-	font-family: 'asapbold';
-	color:#2ec06c;
+  font-family: 'asapbold';
+  color:#2ec06c;
 }
 .footer_area p a:hover{
-	text-decoration:none;
+  text-decoration:none;
 }
 .main-bg{}
 .fa-paper-plane{}
 
 
 /*=====================================================================
-	css for oel helper
+  css for oel helper
 =======================================================================*/
 #owl-demo .item img{
     display: block;
