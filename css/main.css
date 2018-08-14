@@ -873,7 +873,8 @@ text-align:center;
 }
 
 .contact_box{
-  width: 100%;
+  width: 80%;
+  margin-left: 11%;
 }
 .contact_box input[type="text"], .contact_box input[type="mail"], .contact_box input[type="numbar"], .contact_box textarea {
   color: #666666;
