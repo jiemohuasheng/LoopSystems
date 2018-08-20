@@ -359,7 +359,7 @@ display:block;
 .header_text h1 {
   color: #fff !important;
   font-family: "karlaregular";
-  font-size: 60px;
+  font-size: 65px;
   line-height: 45px;
   text-align: center;
   margin: 0;
@@ -413,6 +413,37 @@ display:block;
 /*=====================================================================
   css for Hareme area
 =======================================================================*/
+.hireme_button {
+  float: left;
+  //padding: 100px 20px 20px;
+  //width: 580px;
+  margin-top: -23%;
+  margin-left: 35%;
+}
+.carrier_button{
+  background: blue;
+}
+.shipper_button{
+  background: #2ec06c;
+}
+.hireme_button a{
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-family: "asapregular";
+  font-size: 14px;
+  line-height: 29px;
+  margin-top: 50px;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+.hireme_button a:hover{
+text-decoration:none;
+background:gray;
+color:#fff;
+border-radius:50px;
+}
+
 .hireme_text {
   background: rgba(0, 0, 0, 0) url("../img/hire_bg.jpg") repeat scroll 0 0;
   display: block;
