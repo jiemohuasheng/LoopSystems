@@ -881,10 +881,6 @@ li{
     height: auto;
 }
 
-
-body #carrier{
-  background-image:url('img/slider/slide.png');
-}
 /*=====================================================================
   css for upload files
 =======================================================================*/
@@ -915,7 +911,6 @@ body #carrier{
     right: 0;
     height: 56px;
     content: "";
-    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
     display: block;
     margin: 0 auto;
     background-size: 100%;
@@ -936,4 +931,17 @@ body #carrier{
     font-weight: 600;
     text-transform: capitalize;
     text-align: center;
+}
+#shipperbody{
+  background:url('https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1534889724&di=f26dd31c7f6c56b75ed0c10a6788f4ae&src=http://s9.rr.itc.cn/r/wapChange/20168_2_10/a2unpl4675561667628.JPEG');
+  background-size:100% 100%;
+  background-attachment: fixed; 
+  background-repeat:no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 40px;');
+  background-size:100% 100%;
+  background-attachment: fixed; 
+  background-repeat:no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 40px;
 }
