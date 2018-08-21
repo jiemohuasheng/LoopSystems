@@ -68,7 +68,7 @@
             <!-- End Logo -->
 
             <form class="col-sm-6 form-horizontal" role="form">
-                <h2>New Carrier Sign-Up</h2>
+                <h2>New Shipper Sign-Up</h2>
                 <div class="form-group">
                     <label for="firstName" class="col-sm-3 control-label">First Name</label>
                     <div class="col-sm-9">
@@ -94,43 +94,63 @@
                     </div>
                 </div>
 
-                <div class="form-group files" >
-                    <label for="photo" class="col-sm-3 control-label">Photo</label>
-                    <div class="col-sm-9">
-                        <input type="file" class="form-control" multiple="">
-                    </div>
-                </div>
-                <div class="form-group files">
-                    <label for="licenseCopy" class="col-sm-3 control-label">Driver's License Copy*</label>
-                    <div class="col-sm-9">
-                        <input type="file" class="form-control" multiple="" required="required">
-                    </div>
-                </div>
                 <div class="form-group">
-                    <label for="expireDate" class="col-sm-3 control-label">Driver's License Expiry Date*</label>
+                    <label for="compannyName" class="col-sm-3 control-label">Company Name</label>
                     <div class="col-sm-9">
-                        <input type="date" id="expireDate" class="form-control" required="required">
+                        <input type="text" id="companyName" placeholder="Company Name" class="form-control" autofocus>
                     </div>
                 </div>
+                <!-- company address -->
                 <div class="form-group">
-                    <label for="location" class="col-sm-3 control-label">Preferred Hauling Location*</label>
+                    <label for="companyAddress" class="col-sm-3 control-label">Company Address</label>
                     <div class="col-sm-9">
-                        <select name="" class="form-control" required="required">
-                            <option value="Lagos">Lagos</option>
+                        <input type="text" id="streetAddress" placeholder="Stress Address" class="form-control" autofocus>
+                    </div>
+
+                    <div class="col-sm-9">
+                        <input type="text" id="streetAddressLine2" placeholder="Stress Address Line 2" class="form-control" autofocus>
+                    </div>
+
+                    <div class="col-sm-9">
+                        <div class="col-sm-6">
+                            <input type="text" id="city" placeholder="City" class="form-control" autofocus>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" id="region" placeholder="Region" class="form-control" autofocus>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-9">
+                        <div class="col-sm-6">
+                            <input type="text" id="postal" placeholder="Postal / Zip Code" class="form-control" autofocus>
+                        </div>
+                        <div class="col-sm-6">
+                            <select name="" class="form-control">
+                            <option value="Lagos">Canada</option>
                             <option value="Port Harcourt">Port Harcourt</option>
                             <option value="Dhaka">Dhaka</option>
                             <option value="Chittagong">Chittagong</option>
                             <option value="Montreal">Montreal</option>
                             <option value="Toronto">Toronto</option>
                         </select>
+                        </div>
                     </div>
                 </div>
-                <!-- /.form-group -->
+                <!-- end of address -->
                 <div class="form-group">
-                    <div class="col-sm-9 col-sm-offset-3">
-                        <span class="help-block">*Required fields</span>
+                    <label for="shipment" class="col-sm-3 control-label">Shipments per week</label>
+                    <div class="col-sm-9">
+                        <input type="number" id="shipment" placeholder="" class="form-control" autofocus>
                     </div>
                 </div>
+                <div class="form-group">
+                    <label for="volume" class="col-sm-3 control-label">Volume of Shipment (Tonnes per week)</label>
+                    <div class="col-sm-9">
+                        <input type="number" id="volume" placeholder="" class="form-control" autofocus>
+                    </div>
+                </div>
+
+                <!-- /.form-group -->
                 <button type="submit" class="btn btn-primary btn-block">Submit</button>
             </form> <!-- /form -->
         </div> <!-- ./container -->
