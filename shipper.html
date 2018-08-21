@@ -100,17 +100,22 @@
                         <input type="text" id="companyName" placeholder="Company Name" class="form-control" autofocus>
                     </div>
                 </div>
-                <!-- company address -->
+
+                <!-- start of company address -->
                 <div class="form-group">
                     <label for="companyAddress" class="col-sm-3 control-label">Company Address</label>
                     <div class="col-sm-9">
                         <input type="text" id="streetAddress" placeholder="Stress Address" class="form-control" autofocus>
                     </div>
-
+                </div>
+                <div class="form-group">
+                    <label for="companyAddress" class="col-sm-3 control-label"></label>
                     <div class="col-sm-9">
                         <input type="text" id="streetAddressLine2" placeholder="Stress Address Line 2" class="form-control" autofocus>
                     </div>
-
+                </div>
+                <div class="form-group">
+                    <label for="companyAddress" class="col-sm-3 control-label"></label>
                     <div class="col-sm-9">
                         <div class="col-sm-6">
                             <input type="text" id="city" placeholder="City" class="form-control" autofocus>
@@ -119,7 +124,9 @@
                             <input type="text" id="region" placeholder="Region" class="form-control" autofocus>
                         </div>
                     </div>
-
+                </div>
+                <div class="form-group">
+                    <label for="companyAddress" class="col-sm-3 control-label"></label>
                     <div class="col-sm-9">
                         <div class="col-sm-6">
                             <input type="text" id="postal" placeholder="Postal / Zip Code" class="form-control" autofocus>
@@ -137,18 +144,57 @@
                     </div>
                 </div>
                 <!-- end of address -->
+
+                <!-- start of Shipping Material -->
+                <div class="form-group">
+                    <label for="material" class="col-sm-3 control-label">Shipping Material</label>
+                    <div class="col-sm-9">
+                        <input type="checkbox" id="material" class="" value="Electronics" autofocus>   Electronics<br>
+                        <input type="checkbox" id="material" class="" value="Hardware" autofocus>   Hardware<br>
+                        <input type="checkbox" id="material" class="" value="Rubber" autofocus>   Rubber or Tyre<br>
+                        <input type="checkbox" id="material" class="" value="Construction" autofocus>   Construction Material<br>
+                        <input type="checkbox" id="material" class="" value="ConsumerGoods" autofocus>   Consumer Packaged Goods<br>
+                        <input type="checkbox" id="material" class="" value="OfficeSupplies" autofocus>   Office Supplies<br>
+                    </div>
+                </div>
+                <!-- end of Shipping Material -->
+
                 <div class="form-group">
                     <label for="shipment" class="col-sm-3 control-label">Shipments per week</label>
                     <div class="col-sm-9">
                         <input type="number" id="shipment" placeholder="" class="form-control" autofocus>
                     </div>
                 </div>
+
                 <div class="form-group">
                     <label for="volume" class="col-sm-3 control-label">Volume of Shipment (Tonnes per week)</label>
                     <div class="col-sm-9">
                         <input type="number" id="volume" placeholder="" class="form-control" autofocus>
                     </div>
                 </div>
+
+                <!-- start of Active Shipping Routes -->
+                <div class="form-group">
+                    <label for="routes" class="col-sm-3 control-label">Active Shipping Routes</label>
+                    <div class="col-sm-9">
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Toronto - Montreal<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Greater Toronto Area<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Lagos - Ikeja<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Lagos - Ibafo<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Lagos - Sagamu/ Interchange<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Lagos - Ibadan<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Lagos - Ijebu Ode<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Lagos - Ijebu -Igbo<br>
+
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Lagos - Oyo<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Lagos - Ogbomoso<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Lagos - Ilorin<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Dhaka - Chittagong<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Chittagong - Bogra<br>
+                        <input type="checkbox" id="material" class="" value="" autofocus>   Chittagong - Barisal<br>
+                    </div>
+                </div>
+                <!-- end of Active Shipping Routes -->
 
                 <!-- /.form-group -->
                 <button type="submit" class="btn btn-primary btn-block">Submit</button>
