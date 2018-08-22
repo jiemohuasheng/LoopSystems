@@ -945,3 +945,8 @@ li{
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 40px;
 }
+form{
+  background-color:white; 
+  padding-bottom: 15px; 
+  margin: auto 24%;
+}
