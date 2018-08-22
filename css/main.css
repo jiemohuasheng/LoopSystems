@@ -622,14 +622,14 @@ padding-bottom:50px;
 /*=====================================================================
   css for Project area
 =======================================================================*/
-.project_area {
+.about_area {
   padding-bottom: 80px;
   text-align: center;
 }
-.prject_area_title {
+.about_area_title {
   margin-bottom: 40px;
 }
-.prject_area_title h2{
+.about_area_title h2{
 color:#202020;
 font-size:30px;
 line-height:40px;
@@ -637,11 +637,11 @@ font-family: 'asapregular';
 margin-top:0;
 margin-bottom:25px;
 }
-.prject_area_title h2 span{
+.about_area_title h2 span{
 font-family: 'asapbold';
 color:#2ec06c;
 }
-.prject_area_title p {
+.about_area_title p {
   color: #666666;
   font-family: "karlaregular";
   font-size: 16px;
