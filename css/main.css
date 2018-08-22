@@ -945,7 +945,7 @@ li{
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 40px;
 }
-form{
+.form-horizontal{
   background-color:white; 
   padding-bottom: 15px; 
   margin: auto 24%;
