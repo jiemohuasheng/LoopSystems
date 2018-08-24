@@ -962,7 +962,8 @@ li{
 }
 
 .form-horizontal{
-  background-color:white; 
+  //background-color:white; 
+  background:url(../img/form_bg.jpg) repeat;
   padding-bottom: 15px; 
   margin: auto auto;
 }
